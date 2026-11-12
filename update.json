@@ -8,7 +8,7 @@
     "关掉 App 再打开会回到上次那首歌和进度"
   ],
   "android": {
-    "url": "https://github.com/chary1n/moresound-update/releases/download/v1.2.0/MoreSound-1.2.0-4-b99b957-arm64.apk",
+    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.0/MoreSound-1.2.0-4-b99b957-arm64.apk",
     "size": 37985291
   }
 }
