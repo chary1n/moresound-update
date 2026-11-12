@@ -1,18 +1,17 @@
 {
-  "version": "1.2.1",
-  "versionCode": 5,
+  "version": "1.2.2",
+  "versionCode": 6,
   "notes": [
-    "下载更新优先走加速镜像，一个地址连不上自动换下一个",
-    "下载完核对安装包大小，镜像返回错误页时不会把坏包交给安装器",
-    "检查更新优先读更新清单，清单里写的镜像地址才能真正生效"
+    "歌单页新增「精选歌单」，直接列出 QQ 音乐精选页推荐的那 12 个歌单，点开就听",
+    "「解析歌单链接」收进右上角图标，页面主体让给歌单"
   ],
   "android": {
-    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.1/MoreSound-1.2.1-5-68b2640-arm64.apk",
+    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.2/MoreSound-1.2.2-6-141e4f3-arm64.apk",
     "mirrors": [
-      "https://github.com/chary1n/moresound-update/releases/download/v1.2.1/MoreSound-1.2.1-5-68b2640-arm64.apk",
-      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.1/MoreSound-1.2.1-5-68b2640-arm64.apk",
-      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.1/MoreSound-1.2.1-5-68b2640-arm64.apk"
+      "https://github.com/chary1n/moresound-update/releases/download/v1.2.2/MoreSound-1.2.2-6-141e4f3-arm64.apk",
+      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.2/MoreSound-1.2.2-6-141e4f3-arm64.apk",
+      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.2/MoreSound-1.2.2-6-141e4f3-arm64.apk"
     ],
-    "size": 37986027
+    "size": 37989247
   }
 }
