@@ -1,14 +1,18 @@
 {
-  "version": "1.2.0",
-  "versionCode": 4,
+  "version": "1.2.1",
+  "versionCode": 5,
   "notes": [
-    "新增应用内更新：启动时自动检查，设置页也能手动检查",
-    "更新面板会列出更新内容、下载进度，下载完交给系统安装",
-    "设置 → 应用更新 里可以填镜像地址，国内直连 GitHub 不通时用",
-    "关掉 App 再打开会回到上次那首歌和进度"
+    "下载更新优先走加速镜像，一个地址连不上自动换下一个",
+    "下载完核对安装包大小，镜像返回错误页时不会把坏包交给安装器",
+    "检查更新优先读更新清单，清单里写的镜像地址才能真正生效"
   ],
   "android": {
-    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.0/MoreSound-1.2.0-4-b99b957-arm64.apk",
-    "size": 37985291
+    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.1/MoreSound-1.2.1-5-68b2640-arm64.apk",
+    "mirrors": [
+      "https://github.com/chary1n/moresound-update/releases/download/v1.2.1/MoreSound-1.2.1-5-68b2640-arm64.apk",
+      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.1/MoreSound-1.2.1-5-68b2640-arm64.apk",
+      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.1/MoreSound-1.2.1-5-68b2640-arm64.apk"
+    ],
+    "size": 37986027
   }
 }
