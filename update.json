@@ -1,0 +1,14 @@
+{
+  "version": "1.2.0",
+  "versionCode": 4,
+  "notes": [
+    "新增应用内更新：启动时自动检查，设置页也能手动检查",
+    "更新面板会列出更新内容、下载进度，下载完交给系统安装",
+    "设置 → 应用更新 里可以填镜像地址，国内直连 GitHub 不通时用",
+    "关掉 App 再打开会回到上次那首歌和进度"
+  ],
+  "android": {
+    "url": "https://github.com/chary1n/moresound-update/releases/download/v1.2.0/MoreSound-1.2.0-4-b99b957-arm64.apk",
+    "size": 37985291
+  }
+}
