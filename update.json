@@ -1,17 +1,18 @@
 {
-  "version": "1.2.3",
-  "versionCode": 7,
+  "version": "1.2.4",
+  "versionCode": 8,
   "notes": [
-    "歌单页新增「分类歌单」：全部 + 主题/场景/心情/年代/流派/语种，点「全部分类」挑",
-    "每个分类下的歌单可以一直往后加载，不再是只有前面这几张"
+    "安装包从 38 MB 缩到 18 MB：只保留 arm64 架构，模拟器和 32 位机器的包不再打进去",
+    "开启代码压缩和资源裁剪，没用到的代码、资源在打包时被剔掉",
+    "原生库改为压缩存放，装到手机上占用也更小"
   ],
   "android": {
-    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.3/MoreSound-1.2.3-7-e679c69-arm64.apk",
+    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.4/MoreSound-1.2.4-8-d809f65-arm64.apk",
     "mirrors": [
-      "https://github.com/chary1n/moresound-update/releases/download/v1.2.3/MoreSound-1.2.3-7-e679c69-arm64.apk",
-      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.3/MoreSound-1.2.3-7-e679c69-arm64.apk",
-      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.3/MoreSound-1.2.3-7-e679c69-arm64.apk"
+      "https://github.com/chary1n/moresound-update/releases/download/v1.2.4/MoreSound-1.2.4-8-d809f65-arm64.apk",
+      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.4/MoreSound-1.2.4-8-d809f65-arm64.apk",
+      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.4/MoreSound-1.2.4-8-d809f65-arm64.apk"
     ],
-    "size": 37997779
+    "size": 18147396
   }
 }
