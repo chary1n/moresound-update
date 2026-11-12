@@ -5,8 +5,10 @@
 - `update.json`：App 启动时读的更新清单（版本、构建号、更新内容、安装包地址）
 - Releases：每个版本的安装包，文件名与清单里的地址一致
 
-App 从这些地址依次尝试读取清单：GitHub Releases 的 latest 接口、
-本仓库 main 分支的 `update.json`（raw 与 jsDelivr）。
+App 依次从这些地址读清单：设置里手填的地址、本仓库 main 分支的 `update.json`
+（raw 与 jsDelivr）、GitHub Releases 的 latest 接口。清单排在 Release 接口前面，
+是因为安装包地址写在清单里——国内直连 GitHub 的 Release 资源经常不通，
+清单里的 `url` 指向加速镜像，`mirrors` 列备用地址，App 会依次试。
 
 发布新版本：改 `app.json` 的 `version` / `android.versionCode` 后重新出包，
 在源码仓库执行 `scripts/publish-update.sh <apk> notes.txt`，
