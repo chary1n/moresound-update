@@ -1,18 +1,18 @@
 {
-  "version": "1.2.4",
-  "versionCode": 8,
+  "version": "1.2.5",
+  "versionCode": 9,
   "notes": [
-    "安装包从 38 MB 缩到 18 MB：只保留 arm64 架构，模拟器和 32 位机器的包不再打进去",
-    "开启代码压缩和资源裁剪，没用到的代码、资源在打包时被剔掉",
-    "原生库改为压缩存放，装到手机上占用也更小"
+    "缓冲卡住时自动重连：20 秒没有进展就重新取一次播放地址，并从卡住的秒数接着放",
+    "回到前台会再查一次，仍卡在缓冲就直接重载，不用打开播放页手动点",
+    "真正放起来后「缓冲卡住了」的提示会自动消失"
   ],
   "android": {
-    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.4/MoreSound-1.2.4-8-d809f65-arm64.apk",
+    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.5/MoreSound-1.2.5-9-9453a25-arm64.apk",
     "mirrors": [
-      "https://github.com/chary1n/moresound-update/releases/download/v1.2.4/MoreSound-1.2.4-8-d809f65-arm64.apk",
-      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.4/MoreSound-1.2.4-8-d809f65-arm64.apk",
-      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.4/MoreSound-1.2.4-8-d809f65-arm64.apk"
+      "https://github.com/chary1n/moresound-update/releases/download/v1.2.5/MoreSound-1.2.5-9-9453a25-arm64.apk",
+      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.5/MoreSound-1.2.5-9-9453a25-arm64.apk",
+      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.5/MoreSound-1.2.5-9-9453a25-arm64.apk"
     ],
-    "size": 18147396
+    "size": 18148788
   }
 }
