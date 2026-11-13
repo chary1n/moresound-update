@@ -1,18 +1,18 @@
 {
-  "version": "1.2.5",
-  "versionCode": 9,
+  "version": "1.2.6",
+  "versionCode": 10,
   "notes": [
-    "缓冲卡住时自动重连：20 秒没有进展就重新取一次播放地址，并从卡住的秒数接着放",
-    "回到前台会再查一次，仍卡在缓冲就直接重载，不用打开播放页手动点",
-    "真正放起来后「缓冲卡住了」的提示会自动消失"
+    "下一首的播放地址在上一首播放时就提前取好，黑屏切歌不再等接口",
+    "自动接歌遇到网络超时会自己在后台重试，不用再手动点播放",
+    "点开 App 时如果上次没接上，会自动重放当前曲"
   ],
   "android": {
-    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.5/MoreSound-1.2.5-9-9453a25-arm64.apk",
+    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.6/MoreSound-1.2.6-10-2cdd976-arm64.apk",
     "mirrors": [
-      "https://github.com/chary1n/moresound-update/releases/download/v1.2.5/MoreSound-1.2.5-9-9453a25-arm64.apk",
-      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.5/MoreSound-1.2.5-9-9453a25-arm64.apk",
-      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.5/MoreSound-1.2.5-9-9453a25-arm64.apk"
+      "https://github.com/chary1n/moresound-update/releases/download/v1.2.6/MoreSound-1.2.6-10-2cdd976-arm64.apk",
+      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.6/MoreSound-1.2.6-10-2cdd976-arm64.apk",
+      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.6/MoreSound-1.2.6-10-2cdd976-arm64.apk"
     ],
-    "size": 18148788
+    "size": 18151012
   }
 }
