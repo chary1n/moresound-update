@@ -1,18 +1,18 @@
 {
-  "version": "1.2.7",
-  "versionCode": 11,
+  "version": "1.2.8",
+  "versionCode": 12,
   "notes": [
-    "歌单详情页右上角新增爱心：点一下收藏，再点取消",
-    "歌单页新增「收藏的歌单」和「最近播放的歌单」两块，横向滑动，点开即进",
-    "打开过的歌单会自动记进「最近播放的歌单」，只留最近 50 个，都存在本机"
+    "下一首提前排进播放器，息屏或后台时由播放器自己接上，不用等界面醒过来",
+    "放完一首不再偶尔停住；接上之后界面和锁屏信息会自动跟着换",
+    "后台预取失败会隔一会儿自己再试两次"
   ],
   "android": {
-    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.7/MoreSound-1.2.7-11-daf2d86-arm64.apk",
+    "url": "https://gh-proxy.com/https://github.com/chary1n/moresound-update/releases/download/v1.2.8/MoreSound-1.2.8-12-5d7b2ca-arm64.apk",
     "mirrors": [
-      "https://github.com/chary1n/moresound-update/releases/download/v1.2.7/MoreSound-1.2.7-11-daf2d86-arm64.apk",
-      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.7/MoreSound-1.2.7-11-daf2d86-arm64.apk",
-      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.7/MoreSound-1.2.7-11-daf2d86-arm64.apk"
+      "https://github.com/chary1n/moresound-update/releases/download/v1.2.8/MoreSound-1.2.8-12-5d7b2ca-arm64.apk",
+      "https://ghfast.top/https://github.com/chary1n/moresound-update/releases/download/v1.2.8/MoreSound-1.2.8-12-5d7b2ca-arm64.apk",
+      "https://ghproxy.net/https://github.com/chary1n/moresound-update/releases/download/v1.2.8/MoreSound-1.2.8-12-5d7b2ca-arm64.apk"
     ],
-    "size": 18157128
+    "size": 18160468
   }
 }
